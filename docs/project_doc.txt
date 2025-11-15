@@ -1,0 +1,1 @@
+This project demonstrates a simple Python program. It reads files, processes data, and answers questions. Logging and error handling are included.
