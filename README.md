@@ -1,37 +1,34 @@
 # Mini RAG AI Project
 
-Mini RAG AI is a small Python project that demonstrates how to load documents, split them into sentences, and answer questions using Natural Language Processing (NLP) with NLTK. This project is a simple example of a Retrieval-Augmented Generation (RAG) style workflow.
+Mini RAG AI is a Python project demonstrating how to load text documents, split them into sentences, and answer questions using Natural Language Processing (NLP) with NLTK. This project shows a simple Retrieval-Augmented Generation (RAG) workflow.
 
 ## Features
-
-- Load multiple text documents into Python.
+- Load multiple `.txt` documents into Python.
 - Split text into sentences using NLTK's `sent_tokenize`.
-- Ask questions and retrieve relevant answers from the documents.
-- Works with `.txt` files stored locally.
+- Ask questions and retrieve answers from your documents.
+- Works with `.txt` files stored locally in a `docs/` folder.
 
 ## Requirements
-
 - Python 3.11+
 - NLTK library
 
 Install required Python packages:
-
 ```bash
 pip install nltk
-You will also need to download the NLTK tokenizer:
+Download NLTK tokenizer:
 
 import nltk
 nltk.download('punkt')
-
 Usage
-
-Place your .txt documents in the docs folder.
+Place your .txt documents inside the docs/ folder (already included in this repo).
 
 Run the Python script:
+
 python3 mini_rag.py
-Ask questions about the content of your documents in the terminal.
+Ask questions about the content in your terminal. Type exit to quit.
 
 Example:
+
 Ask a question (or type 'exit' to quit): summarize the AI notes
 Example Documents
 
@@ -42,10 +39,9 @@ ai_notes.txt – Notes from AI experiments.
 project_doc.txt – Sample project documentation.
 
 Learning Outcomes
-
 Practice basic NLP techniques using Python and NLTK.
-Learn how to process and analyze text data.
-Gain experience with RAG-style information retrieval.
+Process and analyze text data.
+Learn how RAG-style information retrieval works.
 
 Author
 Created for educational purposes and portfolio demonstration by qadentech.
